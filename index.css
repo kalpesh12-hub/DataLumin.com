@@ -32,7 +32,7 @@ body {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
+  padding-left: 25px;
   padding-right: 15px;
 }
 
@@ -539,6 +539,10 @@ nav ul li a {
     font-weight: lighter;
     color: #7c7b7b;
   }
+
+  .row {
+    margin-top: -5px;
+  }
 }
 
 /* Contact Page */
@@ -814,6 +818,7 @@ nav ul li a {
   background-color: #effbff;
   border: 1px solid #fd8200;
   text-decoration: none;
+  border-radius: 12px;
 }
 
 .a-tab:hover {
