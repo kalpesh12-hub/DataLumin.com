@@ -79,6 +79,51 @@
         ::before {
             color: antiquewhite;
         }
+
+        .h2 {
+            font-family: Roboto;
+            font-size: 50px;
+            font-weight: lighter;
+        }
+
+        .h3 {
+            font-family: Roboto;
+            font-size: 40px;
+            font-weight: lighter;
+            margin-bottom: 20px;
+        }
+
+        .a-tag {
+            z-index: 22;
+            font-family: Roboto;
+            cursor: pointer;
+            outline: none;
+            visibility: visible;
+            text-align: inherit;
+            line-height: 22px;
+            letter-spacing: 0px;
+            font-weight: 400;
+            font-size: 18px;
+            border-color: rgb(253, 130, 0);
+            border-style: solid;
+            border-width: 1px;
+            margin-top: 10px;
+            border-radius: 5px;
+            padding: 11px 25px;
+            color: rgb(253, 130, 0);
+            text-decoration: none;
+            white-space: nowrap;
+            width: auto;
+            height: auto;
+            min-height: 0px;
+            min-width: 0px;
+            max-height: none;
+            max-width: none;
+            background-color: rgba(0, 0, 0, 0);
+            opacity: 1;
+            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+            transform-origin: 50% 50% 0px;
+        }
     </style>
 </head>
 
@@ -145,46 +190,51 @@
     <div class="slider-wrap">
         <div class="slider">
             <div class="container">
-                <div class="grid grid-cols-1 md-grid-cols-2 lg:grid-cols-2 gap-2">
-                    <div class="slider-text-wrapper">
-                        <h1>Placing Data</h1>
-                        <p class="data-paragraph">at the Center of Transformation</p>
-                        <a href=""><span class="text-span">Know More</span></a>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h2 class="h2">Placing Data</h2>
+                        <h3 class="h3">At the Center of transformation</h3>
+                        <a href="" class="a-tag"><span>Know More</span></a>
                     </div>
-                    <div class="image-container">
-                        <img src="./assets/Placing-Data.png" alt="" srcset="" class="slider-image" />
-                    </div>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="grid grid-cols-1 md-grid-cols-2 lg:grid-cols-2 gap-2">
-                    <div class="slider-text-wrapper">
-                        <h1>Delivering</h1>
-                        <p>World class Visual Analytics at scale</p>
-                        <a href="" class="tag">Know More</a>
-                    </div>
-                    <div class="image-container">
-                        <img src="./assets/Delivering-World.png" alt="" srcset="" class="slider-image" />
+                    <div class="col-sm-6">
+                        <img src="./assets/Placing-Data.png" alt="" srcset="">
                     </div>
                 </div>
             </div>
 
             <div class="container">
-                <div class="grid grid-cols-1 md-grid-cols-2 lg:grid-cols-2 gap-2">
-                    <div class="slider-text-wrapper">
-                        <h1>Navigating</h1>
-                        <p>
-                            Complex data pathways at ease
-                        </p>
-                        <a href=""><span class="text-span">Know More</span></a>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h2 class="h2">Delivering</h2>
+                        <h3 class="h3">World Class Visual Analytics at scale</h3>
+                        <a href="" class="a-tag"><span class="span-data">Know More</span></a>
                     </div>
-                    <div class="image-container">
-                        <img src="./assets/Delivering-World.png" alt="" srcset="" class="slider-image" />
+                    <div class="col-sm-6">
+                        <img src="./assets/Placing-Data.png" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h2 class="h2">Navigating</h2>
+                        <h3 class="h3">complex data pathways at ease</h3>
+                        <a href="" class="a-tag"><span>Know More</span></a>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="./assets/Placing-Data.png" alt="" srcset="">
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+
+
+    </div>
+
+    <div class="slide-overlay"></div>
     </div>
 
     <!-- About DataLumin -->
@@ -193,32 +243,33 @@
                 class="main-bg rounded active"><span style="color: aliceblue;"><i
                         class="fa-sharp fa-solid fa-arrow-up"></i><i
                         class="stline-arrow-up btn_back"></i></span></a></button>
-                        <div class="info-container">
-                            <h3 class="info-text">
-                                why does <span class="text-transform">DataLumin</span> exist?
-                            </h3>
-                        </div>
-                        <div class="info-para">
-                            <p>We exist because the world of data is rough. It takes blood, sweat and toil to bring the data from a
-                                myriad sources all together, <span style="color: #346df1;">cleanse</span> it, blend it, join it, <span
-                                    style="color: #2d9c41;">catalog</span> it, <span style="color: y
-                                        ;">visualize</span> it and make it available to the people who need it most all day, every day.
-                                People then look at it with different lenses, from different directions to glean valuable <span
-                                    style="color: #ff2c28;">insights</span> from it. This toil finally leads to actions that will <span
-                                    style="color: #346df1;">transform</span> the organizations – take it from the basecamp to the
-                                summit, or from a summit to a higher summit. So, you see – this trail takes you through dark data
-                                jungles and you need a spotlight to <span style="color: #2d9c41;">illuminate</span> the path and propel
-                                you forward. To take you to lands that you have always wanted to explore where the elixir of success
-                                lies. That is what a <span style="color: #ef8600;">spotlight</span> does – it channels you in the right
-                                direction and advances you on the journey, leading you to an exciting destination. And that is what we
-                                help you with. We help you <span style="color: #ff2c28;">navigate</span> the complex data pathways with
-                                <span style="color: #346df1;">confidence</span>.
-                            </p><br>
-                            <p>
-                                DataLumin is born out of the desire to <span style="color: #2d9c41;">propel</span> the innate human
-                                desire to make sense of their surroundings, their business, their data.
-                            </p>
-                        </div>
+        <div class="info-container">
+            <h3 class="info-text">
+                why does <span class="text-transform">DataLumin</span> exist?
+            </h3>
+        </div>
+        <div class="info-para">
+            <p>We exist because the world of data is rough. It takes blood, sweat and toil to bring the data from a
+                myriad sources all together, <span style="color: #346df1;">cleanse</span> it, blend it, join it, <span
+                    style="color: #2d9c41;">catalog</span> it, <span style="color: y
+                                        ;">visualize</span> it and make it available to the people who need it most all
+                day, every day.
+                People then look at it with different lenses, from different directions to glean valuable <span
+                    style="color: #ff2c28;">insights</span> from it. This toil finally leads to actions that will <span
+                    style="color: #346df1;">transform</span> the organizations – take it from the basecamp to the
+                summit, or from a summit to a higher summit. So, you see – this trail takes you through dark data
+                jungles and you need a spotlight to <span style="color: #2d9c41;">illuminate</span> the path and propel
+                you forward. To take you to lands that you have always wanted to explore where the elixir of success
+                lies. That is what a <span style="color: #ef8600;">spotlight</span> does – it channels you in the right
+                direction and advances you on the journey, leading you to an exciting destination. And that is what we
+                help you with. We help you <span style="color: #ff2c28;">navigate</span> the complex data pathways with
+                <span style="color: #346df1;">confidence</span>.
+            </p><br>
+            <p>
+                DataLumin is born out of the desire to <span style="color: #2d9c41;">propel</span> the innate human
+                desire to make sense of their surroundings, their business, their data.
+            </p>
+        </div>
     </div>
 
 
@@ -410,7 +461,7 @@
             </div>
         </article>
     </section>
-</section>
+    </section>
 
     <!-- Contact Us Page -->
     <div class="resource-wrapper">
