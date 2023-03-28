@@ -973,6 +973,7 @@ footer {
   width: 100%;
   padding-top: 40px;
   padding-bottom: 40px;
+  margin-top: 87px;
 }
 
 footer.wst-footer.footer-2 {
@@ -993,7 +994,7 @@ footer.wst-footer.footer-2 {
   }
 
   footer.wst-footer.footer-2 {
-    height: 850px;
+    height: 917px;
   }
 
   .copyrights {
