@@ -569,3 +569,122 @@ nav ul li a {
     text-align: center;
   }
 }
+
+
+/* Footer */
+
+.wst-footer:not(.has-top-area) {
+  padding-top: 70px;
+}
+.wst-footer {
+  position: relative;
+  overflow: hidden;
+}
+footer {
+  display: block;
+}
+
+.footer_bg {
+  position: relative;
+  z-index: 1;
+}
+
+.wst-footer .footer_bg:before {
+  background-image: url(./assets/foot_bg-1.png);
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: inherit;
+}
+.wst-footer .footer_bg:before {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  content: "";
+  display: inline-block;
+}
+
+.wst-footer.footer-2 .footer-middle {
+  padding-top: 120px;
+}
+.wst-footer .footer-middle {
+  color: #000000 !important;
+}
+.footer-middle {
+  padding-bottom: 40px;
+  font-size: 16px;
+}
+
+.wst-footer .container {
+  position: relative;
+  z-index: 2;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.row-eq-height {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.container:after {
+  content: " ";
+  display: table;
+}
+
+.wst-footer.footer-2 .footer-bottom > .container {
+  border-top: 0;
+}
+
+.wst-footer .container {
+  position: relative;
+  z-index: 2;
+}
+
+.wst-footer .footer-bottom {
+  color: #848484;
+}
+
+.widgettitle {
+  font-family: Poppins, sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px !important;
+  color: grey !important;
+}
+
+.wst-footer.footer-2 .footer-bottom .copyrights {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+footer.wst-footer.footer-2 {
+  height: 800px;
+}
+
+.wst-footer .footer-bottom {
+  margin-top: -131px;
+  color: #848484;
+}
+
+@media only screen and (max-width: 400px) {
+  .wst-footer .footer_bg:before {
+    background-image: url(./assets/foot_bg-1.png);
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: cover;
+  }
+}
