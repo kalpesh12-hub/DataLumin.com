@@ -259,19 +259,22 @@
           take you on the best data experience ever!
         </p>
 
-        <form method="post">
+        <form action="https://formsubmit.co/7213d0e416e8f537e00a53e9fb2a27bf" method="POST">
           <label for="uname" class="label">Name <sup style="color: red">*</sup></label><br />
-          <input type="text" name="name" id="uname" class="field" /><br />
+
+          <input type="text" name="Name" id="uname" class="field" required /><br />
+
           <label for="email" class="label">Email <sup style="color: red">*</sup></label><br />
-          <input type="email" name="" id="email" class="field" /><br />
+          
+          <input type="email" name="Email" id="email" class="field" required /><br />
           <label for="cname" class="label">Company Name</label><br />
-          <input type="text" name="" id="cname" class="field" /><br />
+          <input type="text" name="Comp-Name" id="cname" class="field"><br />
           <label for="query" class="label">Query <sup style="color: red">*</sup></label><br />
-          <textarea name="" id="query" cols="50" rows="5" class="field-area"></textarea>
-          <button type="button" value="Send Email" id="btn" onclick="sendEmail()">
-            Submit
-          </button>
-        </form>
+          <textarea name="Message" class="field-area" required></textarea>
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanku.html">
+          <button type="submit" id="btn">Submit</button>
+      </form>
       </div>
     </div>
   </div>
