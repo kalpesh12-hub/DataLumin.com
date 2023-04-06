@@ -572,6 +572,8 @@ nav ul li a {
 
 /* Footer */
 
+/* Footer */
+
 .wst-footer:not(.has-top-area) {
   padding-top: 70px;
 }
@@ -620,6 +622,10 @@ footer {
   position: relative;
   z-index: 2;
 }
+.container {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
 
 .container {
   margin-right: auto;
@@ -652,6 +658,11 @@ footer {
   z-index: 2;
 }
 
+p.widget-txt {
+  width: 350px;
+  padding: 12px;
+}
+
 .wst-footer .footer-bottom {
   color: #848484;
 }
@@ -666,12 +677,16 @@ footer {
 
 .wst-footer.footer-2 .footer-bottom .copyrights {
   width: 100%;
-  padding-top: 40px;
+  padding-top: 65px;
   padding-bottom: 40px;
 }
 
 footer.wst-footer.footer-2 {
-  height: 800px;
+  height: max-content;
+}
+
+.widget_text.widget.widget_custom_html {
+  padding: 10px;
 }
 
 .wst-footer .footer-bottom {
